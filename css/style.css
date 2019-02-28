@@ -4,6 +4,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 body {
     font-family: /*'Encode Sans Condensed', */sans-serif;
+    line-height: 1.3;
 }
 header {
     position: fixed;
@@ -13,6 +14,8 @@ header {
     padding: 1%;
     overflow: auto;
     z-index: 100;
+    background: rgba(9, 64, 76, 0.9);
+    box-shadow: 0px 0px 5px 1px #5f5f5f;
 }
 .logo {
     float: left;
@@ -28,7 +31,7 @@ nav {
 nav li {
     float: left;
     width: 25%;
-    text-align: center; 
+    text-align: center;
 }
 nav li a {
     display: block;
@@ -43,6 +46,13 @@ nav li a {
     height: 100vh;
     margin: auto;
 }
+.inner1 {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    /* height: 100vh; */
+    margin: auto;
+}
 .align-center {
     position: absolute;
     top: 50%;
@@ -50,15 +60,23 @@ nav li a {
     transform: translateY(-50%);
     overflow: auto;
 }
-
+h1 {
+    font-size: 24px;
+    color: #1895c5;
+}
+h2 {
+    margin-top: 6%;
+}
 #profile {
-    background: #04b4d0;
-    background: linear-gradient(to right, #24cce6, #04b4d0);
+    border-bottom: 2px dotted #ccc;
+    /* background: #04b4d0; */
+    /* background: linear-gradient(to right, #009eda, #04b4d0); */
+    margin: 0 5%;
 }
 .top-image {
     width: 40%;
     padding: 6% 0;
-    border: 1px solid #efefef;
+    border: 2px outset #efefef;
     text-align: center;
     float: left;
 }
@@ -70,4 +88,33 @@ nav li a {
     float: right;
     width: calc(59% - 2%);
     margin-left: 2%;
+}
+time {
+    margin-bottom: 20px;
+    margin-top: -10px;
+    color: #0ab9d4;
+    display: block;
+    font-size: 14px;
+}
+blockquote {
+    display: inline;
+    margin: 0;
+}
+mark {
+    background: transparent;
+    color: #888;
+}
+mark a {
+    color: #888;
+}
+#experience ul, #skills ul {
+    list-style: disc;
+    padding-left: 15px;
+}
+footer {
+    padding: 5%;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 12px;
+    background: #001e25;
 }
