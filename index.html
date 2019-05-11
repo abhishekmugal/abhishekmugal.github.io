@@ -26,14 +26,14 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/cubeportfolio.min.css"/>
-    <link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <!--<link rel="stylesheet" href="css/owl.theme.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>-->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/yellow.css" id="color"/>
 
     <!-- Google Web fonts
     ================================================== -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">-->
 
     <!-- Font Icons
     ================================================== -->
@@ -91,8 +91,8 @@
             <div class="col-lg-3 col-md-4">
                 <div class="profile" aria-label="profile">
                     <div class="profile-name">
-                        <span class="name">Abhishek Mugal</span><br>
-                        <span class="job">Full Stack Web Engineer</span>
+                        <h1 class="name" role="heading" aria-label="name">Abhishek Mugal</h1>
+                        <span class="job" aria-label="job">Full Stack Web Engineer</span>
                     </div>
                     <figure class="profile-image">
                         <img src="images/abhi.jpg" alt="Abhishek Mugal's Profile Picture" role="img">
@@ -117,7 +117,7 @@
                 <!-- Header
                 ================================================== -->
                 <div class="row">
-                    <header class="col-md-12">
+                    <header class="col-md-12" role="navigation">
                         <nav role="menu">
                             <div class="row">
                                 <!-- navigation bar -->
@@ -151,70 +151,66 @@
 
                             <!-- Home Page
                             ================================================== -->
-                            <div id="home">
+                            <div id="home" role="main">
                                 <!-- Text Section -->
-                                <div class="row">
+                                <div class="row" aria-label="information-about-abhishek-mugal">
                                     <section class="about-me line col-md-12 padding_30 padbot_45">
-                                    <div class="section-title"><span></span><h2>About Me</h2></div>
-                                    <p class="top_30" aria-label="about-me">I am a College of Engineering, Pune (CoEP) alumnus of Computer Science department. I am currently working at Internet Business Japan Co. Ltd, Japan (IBJ), as a Full Stack Web Engineer. Being passionate about Web and Internet, I had involved myself in self-learning since engineering which taught me the importance of Computer Science knowledge in various domains.
-                                    <br><br>
-                                    I always had a profound passion and fascination for areas requiring analytical approach and critical thinking. Right from early days at school, mathematics and science subjects have intrigued me. Visualizing things and quick learning helps me keep updated with the current Web Technology Trends. I am a highly motivated and meticulous individual who loves to develop and design Web Applications and Systems.</p>
-                                </section>
+                                        <div class="section-title"><span></span><h2>About Me</h2></div>
+                                        <p class="top_30" aria-label="about-me">Abhishek Mugal is a College of Engineering, Pune (CoEP) alumnus of Computer Science department. He is currently working at Internet Business Japan Co. Ltd, Japan (IBJ), as a Full Stack Web Engineer. Being passionate about Web and Internet, he had involved himself in self-learning since engineering which taught him the importance of Computer Science knowledge in various domains.
+                                        <br><br>
+                                        He always had a profound passion and fascination for areas requiring analytical approach and critical thinking. Right from early days at school, mathematics and science subjects have intrigued him. Visualizing things and quick learning helps him keep updated with the current Web Technology Trends. He is a highly motivated and meticulous individual who loves to develop and design Web Applications and Systems.</p>
+                                    </section>
                                 </div>
 
                                 <!-- My Services Section -->
-                                <div class="row">
+                                <div class="row" aria-label="services-offered">
                                     <section class="services line graybg col-md-12 padding_50 padbot_50">
-                                    <div class="section-title bottom_45"><span></span><h2>My Services</h2></div>
-                                    <div class="row">
-                                        <!-- a service -->
-                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="service">
-                                                <div class="icon">
-                                                    <i class="flaticon-html"></i>
+                                        <div class="section-title bottom_45"><span></span><h2>My Services</h2></div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="service">
+                                                    <div class="icon">
+                                                        <i class="flaticon-html"></i>
+                                                    </div>
+                                                    <span class="title">Web Development</span>
+                                                    <p class="little-text">I have been working on web development for 5 years.</p>
                                                 </div>
-                                                <span class="title">Web Development</span>
-                                                <p class="little-text">I have been working on web development for 5 years.</p>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="service">
+                                                    <div class="icon">
+                                                        <i class="flaticon-attach"></i>
+                                                    </div>
+                                                    <span class="title">CMS Development</span>
+                                                    <p class="little-text">Designing and developing Content Management Systems</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="service">
+                                                    <div class="icon">
+                                                        <i class="flaticon-vector"></i>
+                                                    </div>
+                                                    <span class="title">Server Handling</span>
+                                                    <p class="little-text">I have been managing servers with AWS &amp; Azure for 3 years.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="service">
+                                                    <div class="icon">
+                                                        <i class="flaticon-schedule"></i>
+                                                    </div>
+                                                    <span class="title">Fast Delivery</span>
+                                                    <p class="little-text">I deliver your business as fast as possible.</p>
+                                                </div>
                                             </div>
                                         </div>
-                                        <!-- a service -->
-                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="service">
-                                                <div class="icon">
-                                                    <i class="flaticon-attach"></i>
-                                                </div>
-                                                <span class="title">CMS Development</span>
-                                                <p class="little-text">Designing and developing Content Management Systems</p>
-                                            </div>
-                                        </div>
-                                        <!-- a service -->
-                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="service">
-                                                <div class="icon">
-                                                    <i class="flaticon-vector"></i>
-                                                </div>
-                                                <span class="title">Server Handling</span>
-                                                <p class="little-text">I have been managing servers with AWS & Azure for 3 years.</p>
-                                            </div>
-                                        </div>
-                                        <!-- a service -->
-                                        <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="service">
-                                                <div class="icon">
-                                                    <i class="flaticon-schedule"></i>
-                                                </div>
-                                                <span class="title">Fast Delivery</span>
-                                                <p class="little-text">I deliver your business as fast as possible.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                                    </section>
                                 </div>
                                 <!-- Skills Section -->
                                 <div class="row">
-                                    <section class="code-skills col-md-6 padding_60">
+                                    <section class="code-skills col-md-6 padding_60" aria-label="code-skills-section">
                                         <div class="section-title bottom_45"><span></span><h2>Code Skills</h2></div>
-                                        <ul class="skill-list">
+                                        <ul class="skill-list" aria-label="code-skills-list">
                                             <li>
                                                 <h3>PHP</h3>
                                                 <div class="progress">
@@ -253,9 +249,9 @@
                                             </li>
                                         </ul>
                                     </section>
-                                    <section class="design-skills col-md-6 padding_60 padbot_50">
+                                    <section class="design-skills col-md-6 padding_60 padbot_50" aria-label="frameworks">
                                         <div class="section-title bottom_45"><span></span><h2>Frameworks</h2></div>
-                                        <ul class="skill-list">
+                                        <ul class="skill-list" aria-label="frameworks-list">
                                             <li>
                                                 <h3>CakePHP</h3>
                                                 <div class="progress">
@@ -280,62 +276,30 @@
 
                                 <!-- Tools and Others Section -->
                                 <div class="row">
-                                    <section class="code-skills col-md-6 padding_60">
+                                    <section class="code-skills col-md-6 padding_60" aria-label="tools-section">
                                         <div class="section-title bottom_45"><span></span><h2>Tools</h2></div>
-                                        <ul class="tools-list">
-                                            <li>
-                                                <p>Amazon Web Services (AWS)</p>
-                                            </li>
-                                            <li>
-                                                <p>Microsoft Azure</p>
-                                            </li>
-                                            <li>
-                                                <p>DevOps</p>
-                                            </li>
-                                            <li>
-                                                <p>WordPress</p>
-                                            </li>
-                                            <li>
-                                                <p>GitHub</p>
-                                            </li>
-                                            <li>
-                                                <p>AJAX</p>
-                                            </li>
-                                            <li>
-                                                <p>Photoshop</p>
-                                            </li>
-                                            <li>
-                                                <p>Putty</p>
-                                            </li>
-                                            <li>
-                                                <p>WinSCP</p>
-                                            </li>
-                                            <li>
-                                                <p>SSL</p>
-                                            </li>
-                                            <li>
-                                                <p>Trello</p>
-                                            </li>
-                                            <li>
-                                                <p>Backlog</p>
-                                            </li>
-                                            <li>
-                                                <p>Slack</p>
-                                            </li>
-                                            <li>
-                                                <p>Eclipse</p>
-                                            </li>
-                                            <li>
-                                                <p>VS Code</p>
-                                            </li>
-                                            <li>
-                                                <p>Atom</p>
-                                            </li>
+                                        <ul class="tools-list" aria-label="tools-list">
+                                            <li><p>Amazon Web Services (AWS)</p></li>
+                                            <li><p>Microsoft Azure</p></li>
+                                            <li><p>DevOps</p></li>
+                                            <li><p>WordPress</p></li>
+                                            <li><p>GitHub</p></li>
+                                            <li><p>AJAX</p></li>
+                                            <li><p>Photoshop</p></li>
+                                            <li><p>Putty</p></li>
+                                            <li><p>WinSCP</p></li>
+                                            <li><p>SSL</p></li>
+                                            <li><p>Trello</p></li>
+                                            <li><p>Backlog</p></li>
+                                            <li><p>Slack</p></li>
+                                            <li><p>Eclipse</p></li>
+                                            <li><p>VS Code</p></li>
+                                            <li><p>Atom</p></li>
                                         </ul>
                                     </section>
-                                    <section class="design-skills col-md-6 padding_60 padbot_50">
+                                    <section class="design-skills col-md-6 padding_60 padbot_50" aria-label="soft-skills-section">
                                         <div class="section-title bottom_45"><span></span><h2>Soft Skills</h2></div>
-                                        <ul class="skill-list">
+                                        <ul class="skill-list" aria-label="soft-skills-list">
                                             <li>
                                                 <h3>English</h3>
                                                 <div class="progress">
@@ -367,7 +331,7 @@
 
                             <!-- Resume Page
                             ================================================== -->
-                            <div id="resume">
+                            <div id="resume" role="contentinfo">
                                 <!-- Resume Section -->
                                 <div class="row">
                                     <section class="education">
@@ -445,11 +409,11 @@
                                     </section>
                                 </div>
                                 <!-- Testimonials -->
-                                <div class="row">
+                                <!--<div class="row">
                                     <section class="testimonials bottom_30">
                                         <div class="section-title top_60 bottom_30"><span></span><h2>Testimonials</h2></div>
                                         <div class="owl-carousel row" data-items="3" data-autoplay="3000" data-pagination="true">
-                                            <!-- a item -->
+                                            
                                             <div class="col-md-12 item">
                                                 <div class="comment">
                                                     <div class="top-section">
@@ -465,7 +429,7 @@
                                                     <p>Great designer! he finished our work wonderfully and just in time. thanks for everything.</p>
                                                 </div>
                                             </div>
-                                            <!-- a item -->
+                                            
                                             <div class="col-md-12 item">
                                                 <div class="comment">
                                                     <div class="top-section">
@@ -479,127 +443,15 @@
                                                     </div>
                                                     <hr>
                                                     <p>Our logo and business card design look great. Thanks Henry</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-3.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Larry M. Johnson</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Henry is a very creative and talented designer. I do not hesitate to work again.</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-1.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Jack Garratt</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Great designer! he finished our work wonderfully and just in time. thanks for everything.</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-2.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">April M. Griffin</span>
-                                                            <span class="job">Founder</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Our logo and business card design look great. Thanks Henry</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-3.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Larry M. Johnson</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Henry is a very creative and talented designer. I do not hesitate to work again.</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-1.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Jack Garratt</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Great designer! he finished our work wonderfully and just in time. thanks for everything.</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-2.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">April M. Griffin</span>
-                                                            <span class="job">Founder</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Our logo and business card design look great. Thanks Henry</p>
-                                                </div>
-                                            </div>
-                                            <!-- a item -->
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-3.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Larry M. Johnson</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Henry is a very creative and talented designer. I do not hesitate to work again.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
-                                </div>
+                                </div>-->
                             </div>
                             <!-- Portfolio Page
                             ================================================== -->
-                            <div id="portfolio" class="row bottom_45">
+                            <div id="portfolio" class="row bottom_45" role="contentinfo">
                                 <section class="col-md-12">
                                     <div class="col-md-12 content-header bottom_15">
                                         <div class="section-title top_30 bottom_30"><span></span><h2>Portfolio</h2></div>
@@ -689,7 +541,7 @@
 
                             <!-- Contact Page
                             ================================================== -->
-                            <div id="contact">
+                            <div id="contact" role="contentinfo">
                                 <div class="row">
                                     <!-- Contact Informations -->
                                     <section class="contact-info col-md-6 padding_30 padbot_45">
@@ -738,7 +590,7 @@
     <script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!--<script type="text/javascript" src="js/owl.carousel.min.js"></script>-->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
