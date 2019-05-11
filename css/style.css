@@ -586,7 +586,9 @@ header nav .site-btn{
     height: 18px;
     display: inline-block;
 }
-
+.social-icons a i {
+    font-size: 15px;
+}
 
 .social-icons a:hover {
     font-size: 14px;
