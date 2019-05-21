@@ -764,8 +764,14 @@ ul.timeline{
     padding-left: 20px;
 }
 
-.timeline li span {
+.timeline li span.time {
     font-size: 12px;
+    padding: 9px 0;
+    display: block;
+}
+
+.timeline li span.company, .timeline li span.uni {
+    font-size: 13px;
     padding: 9px 0;
     display: block;
 }
