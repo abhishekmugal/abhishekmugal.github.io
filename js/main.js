@@ -63,7 +63,7 @@ $(document).ready(function () {
         singlePageAnimation: 'fade',
         mediaQueries: [{
                 width: 700,
-                cols: 3,
+                cols: 2,
             }, {
                 width: 480,
                 cols: 2,
@@ -105,7 +105,7 @@ $(document).ready(function () {
     });
 
     // BLOG CONTENT
-    $('#grid-blog').cubeportfolio({
+    /*$('#grid-blog').cubeportfolio({
         layoutMode: 'grid',
         gridAdjustment: 'responsive',
         gapVertical: 0,
@@ -136,7 +136,7 @@ $(document).ready(function () {
                     loadItems: 3,
                 }
             }
-    });
+    });*/
 
     // GALLERY WIDGET
     $('#widget-gallery').cubeportfolio({
@@ -170,9 +170,5 @@ $(document).ready(function () {
 
 "use strict";
 $(window).load(function () {
-
-
-
-
 
 }); // window load end

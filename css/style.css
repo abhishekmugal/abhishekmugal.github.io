@@ -784,10 +784,20 @@ ul.timeline{
 /* Skills */
 
 .skill-list li {
+    position: relative;
     list-style: none;
 }
 
 .skill-list h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.skill-list span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #777;
     font-size: 12px;
 }
 
