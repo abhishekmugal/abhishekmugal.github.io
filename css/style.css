@@ -427,6 +427,8 @@ ul.profile-information li:before{
 
 ul.profile-information li span{
     color: #000;
+    line-height: 1.4;
+    font-size: 13px;
 }
 
 
@@ -848,7 +850,7 @@ ul.timeline{
 }
 
 .tools-list li p {
-    padding: 3px 5px;
+    padding: 3px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
