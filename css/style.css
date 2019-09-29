@@ -850,11 +850,17 @@ ul.timeline{
 }
 
 .tools-list li p {
-    padding: 3px 10px;
+    padding: 5px 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
+    font-size: 14px;
     margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.tools-list li p:hover {
+    background: #eee;
 }
 
 /*------------------------ 6 Portfolio Section ------------------------*/
