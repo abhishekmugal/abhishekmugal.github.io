@@ -99,7 +99,7 @@
                     </figure>
                     <ul class="profile-information" role="list" aria-label="profile-information">
                         <li></li>
-                        <li><p><span>Masters Student, Computer Science, <a href="https://engineering.asu.edu/" target="_blank" rel="noreferrer">Arizona State University</a></span></p></li>
+                        <li><p><span>Graduate Student, Computer Science, <a href="https://engineering.asu.edu/" target="_blank" rel="noreferrer">Arizona State University</a></span></p></li>
                         <li><p><span>Location:</span> Tempe, AZ, USA</p></li>
                         <li><p><span>Email:</span> <a href="mailto:abhishek.mugal@gmail.com">abhishek.mugal@gmail.com</a></p></li>
                         <li><p><span>Skype:</span> abhishekmugal</p></li>
@@ -219,9 +219,9 @@
                                             </li>
                                             <li>
                                                 <h3>Python</h3>
-                                                <span>75%</span>
+                                                <span>80%</span>
                                                 <div class="progress">
-                                                    <div class="percentage" style="width:75%;"></div>
+                                                    <div class="percentage" style="width:80%;"></div>
                                                 </div>
                                             </li>
                                             <li>
@@ -617,7 +617,7 @@
                 <footer>
                     <div class="footer col-md-12 top_30 bottom_30">
                         <div class="name col-md-4 hidden-md hidden-sm hidden-xs">Abhishek Mugal.</div>
-                        <div class="copyright col-lg-8 col-md-12">© 2019 All rights reserved.</div>
+                        <div class="copyright col-lg-8 col-md-12">© <span id="currentYear"></span> All rights reserved.</div>
                     </div>
                 </footer>
 
@@ -627,6 +627,11 @@
 
     <!-- Javascripts
     ================================================== -->
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("currentYear").innerHTML = n;
+    </script>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
