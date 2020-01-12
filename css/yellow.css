@@ -21,7 +21,7 @@ ul.profile-information li:before{
 /* Hover Color*/
 
 .site-btn:hover, header nav a.home-btn:hover, .section-title span{
-   background-color: #ffb100 !important;
+   /* background-color: #ffb100 !important; */
 }
 
 /* Opacity Color*/
