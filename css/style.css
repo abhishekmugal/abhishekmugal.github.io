@@ -477,6 +477,21 @@ ul.profile-information li:first-child:after{
     display: block;
 }
 
+.profile .LI-badge-container.vertical.light {
+    width: 100%;
+}
+.profile .LI-badge-container.vertical.light .LI-profile-pic-container {
+    background-blend-mode: overlay;
+}
+.profile .LI-badge-container.vertical.light .LI-profile-pic {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profile .LI-badge-container.vertical.light .LI-title {
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
 /* Achievements List */
 .achievements {
     padding: 30px;
