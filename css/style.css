@@ -156,7 +156,7 @@ hr{
 
 
 p{
-    font-size: 13px;
+    font-size: 14px;
     color: #4c4c4c;
     line-height: 24px;
  }
@@ -370,7 +370,7 @@ h6{
 }
 
 .profile .job{
-    font-size: 13px;
+    font-size: 14px;
     color: #777777;
 }
 
@@ -428,7 +428,7 @@ ul.profile-information li:before{
 ul.profile-information li span{
     color: #000;
     line-height: 1.4;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -502,7 +502,7 @@ ul.profile-information li:first-child:after{
     list-style: none;
 }
 .ach-list li {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.6;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -693,7 +693,7 @@ section.graybg{
 }
 
 .clients .client .datetime {
-    font-size: 13px;
+    font-size: 14px;
     color: #aaa;
 }
 
@@ -793,7 +793,7 @@ ul.timeline{
 }
 
 .timeline li span.company, .timeline li span.uni {
-    font-size: 13px;
+    font-size: 14px;
     padding: 9px 0;
     display: block;
 }
@@ -815,7 +815,7 @@ ul.timeline{
 }
 
 .skill-list h3 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -890,7 +890,7 @@ ul.timeline{
     margin-bottom: 10px;
 }
 #portfolio .cbp-item .datetime {
-    font-size: 13px;
+    font-size: 14px;
     color: #aaa;
     margin-bottom: 10px;
 }
@@ -952,7 +952,7 @@ ul.timeline{
 }
 
 #portfolio .cbp-item figcaption .info{
-    font-size: 13px;
+    font-size: 14px;
     color: #989898;
     line-height: 18px;
     display: block;
@@ -1160,7 +1160,7 @@ ul.timeline{
 }
 
 #blog .blog-box span.category{
-    font-size: 13px;
+    font-size: 14px;
     color: #afafaf;
 }
 
@@ -1215,7 +1215,7 @@ ul.timeline{
 }
 
 #blog-post .blog-sidebar .category ul li{
-    font-size: 13px;
+    font-size: 14px;
     color: #3d3d3d;
     border-bottom: solid 1px #efefef;
     line-height: 35px;
@@ -1254,7 +1254,7 @@ ul.timeline{
 }
 
 #blog-post .post-list ul li a p{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 22px;
     color: #000;
 }
@@ -1319,7 +1319,7 @@ ul.timeline{
 }
 
 #blog-post .post-comment ul li .comment-content p{
-    font-size: 13px;
+    font-size: 14px;
     color: #989898;
     line-height: 20px;
     padding-top: 2px;
@@ -1347,7 +1347,7 @@ ul.timeline{
     border: 0;
     color: #000;
     border-bottom: solid 1px #dfdfdf;
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 10px;
     margin-bottom: 15px;
     outline: 0;
@@ -1357,7 +1357,7 @@ ul.timeline{
     width: 100%;
     border: 0;
     border-bottom: solid 1px #dfdfdf;
-    font-size: 13px;
+    font-size: 14px;
     padding: 20px 0 0 10px;
     min-height: 100px;
     margin-bottom: 15px;
@@ -1367,7 +1367,7 @@ ul.timeline{
     width: 100%;
     border: 0;
     border-bottom: solid 1px #dfdfdf;
-    font-size: 13px;
+    font-size: 14px;
     padding: 20px 0 0 10px;
     min-height: 100px;
     margin-bottom: 15px;
@@ -1526,7 +1526,7 @@ footer .footer .copyright a:hover{
 }
 
 .estate figure figcaption .info{
-    font-size: 13px;
+    font-size: 14px;
     color: #989898;
     line-height: 18px;
     display: block;
@@ -1593,7 +1593,7 @@ footer .footer .copyright a:hover{
 }
 
 .portfolio-content .features .room{
-    font-size: 13px;
+    font-size: 14px;
     color: #989898;
 }
 
@@ -1612,7 +1612,7 @@ footer .footer .copyright a:hover{
 
 .details ul li{
     list-style: none;
-    font-size: 13px;
+    font-size: 14px;
     color: #989898;
     line-height: 25px;
 }
@@ -1711,7 +1711,7 @@ footer .footer .copyright a:hover{
 }
 
 .mat-price ul li{
-    font-size: 13px;
+    font-size: 14px;
     list-style: none;
     text-align: center;
     line-height: 24px;
@@ -1791,7 +1791,7 @@ footer .footer .copyright a:hover{
 }
 
 .discography .album{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .discography .album ul li:first-child{
@@ -1802,7 +1802,7 @@ footer .footer .copyright a:hover{
 }
 
 .discography .album ul li:first-child span{
-    font-size: 13px;
+    font-size: 14px;
     color: #b0b0b0;
     font-weight: 400;
 }
@@ -1908,9 +1908,6 @@ footer .footer .copyright a:hover{
         margin-top: 30px;
     }
 
-    header nav ul{
-    }
-
     header nav ul.tabs li:first-child, header nav .menuout ul.tabs li {
         display: block;
     }
@@ -1930,12 +1927,12 @@ footer .footer .copyright a:hover{
         position: absolute;
         z-index: 4;
         margin-top: 25px;
-        border-radius: 8px;
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.05);
-        -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -webkit-border-radius: 0 0 8px 8px;
+        box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.05);
     }
 
     header nav .menuout .menuin ul.tabs li:first-child{
@@ -1954,7 +1951,6 @@ footer .footer .copyright a:hover{
         cursor: pointer;
         line-height: 58px;
     }
-
 
     header nav .hamburger{
         font-size: 20px;
@@ -1983,6 +1979,66 @@ footer .footer .copyright a:hover{
         margin-top: 14px;
     }
 
+    a {
+        font-size: 120%;
+    }
+    .profile {
+        margin-top: 85px;
+    }
+    .profile .name {
+        font-size: 18px;
+    }
+    .profile .job {
+        font-size: 15px;
+    }
+    .profile-name, .profile-image, .profile-information {
+        text-align: center;
+    }
+    .profile-image {
+        margin-top: -10px;
+    }
+    .profile-image img {
+        width: 80%;
+    }
+    ul.profile-information {
+        margin-top: 10px;
+    }
+    ul.profile-information li {
+        padding: 0 10px 10px;
+        border: none;
+    }
+    ul.profile-information li:before, ul.profile-information li:after {
+        display: none;
+    }
+    .profile .site-btn {
+        margin: 0 auto 0;
+    }
+    header {
+        position: fixed !important;
+        top: -10px;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background: #fafafa;
+        margin: 0;
+        padding-top: 30px;
+    }
+    header nav {
+        margin-bottom: 20px;
+    }
+    header nav .menuout .menuin ul.tabs li:last-child {
+        border: none;
+    }
+    #content {
+        transition: background 0.3s ease;
+    }
+    .content-overlay {
+        background: rgba(200,200,200,0.9) !important;
+        z-index: 3;
+    }
+    ul.timeline {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 321px) {

@@ -12,6 +12,14 @@ $(document).ready(function () {
         }
     });
 
+    $('#ajax-tab-container').bind('easytabs:before', function(){
+        let elementId = $('#content > div.active').attr('id');
+        $('html, body').animate({
+            scrollTop: $("#" + elementId).offset().top - 110
+        }, 500);
+        
+    });
+
     // Resume download_resume
     $('#download_resume').click(function(){
         var resumeLink = '<a href="pdf/Abhishek_Mugal_Resume.pdf" id="pdf_resume" target="_blank"></a>';
@@ -32,10 +40,12 @@ $(document).ready(function () {
     }
     transform();
     $('.hamburger').on('click', function() {
-       $('.menuin').slideToggle();
+       $('.menuin').slideToggle(300);
+       $('#content').toggleClass('content-overlay');
     });
     $('.menuout').on('click', function () {
         $('.menuin').slideUp();
+        $('#content').toggleClass('content-overlay');
     });
 
     // OWL CAROUSEL GENERAL JS
