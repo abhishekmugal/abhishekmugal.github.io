@@ -1,0 +1,37 @@
+<!-- Profile Section
+================================================== -->
+<div class="col-lg-3 col-md-4">
+    <div class="profile" aria-label="profile">
+        <div class="">
+            <div class="profile-name">
+                <h1 class="name" role="heading" aria-label="name">Abhishek Mugal</h1>
+                <span class="job" aria-label="job">Computer &amp; Full Stack Web Engineer</span>
+            </div>
+            <figure class="profile-image">
+                <img src="images/abhi.jpg" alt="Abhishek Mugal's Profile Picture" role="img">
+            </figure>
+            <ul class="profile-information" role="list" aria-label="profile-information">
+                <li></li>
+                <li><p><span>SDE Intern @ <a href="https://amazon.com/" target="_blank" rel="noreferrer">Amazon</a></span></p></li>
+                <li><p><span>Graduate student @ <a href="https://engineering.asu.edu/" target="_blank" rel="noreferrer">ASU</a> | <br>Former Lead Full Stack Web Engineer @ IBJ, Japan</span></p></li>
+                <li><p><span>Email:</span> <a href="mailto:abhishek.mugal@gmail.com">abhishek.mugal@gmail.com</a></p></li>
+            </ul>
+        </div>
+        <div class="col-md-12">
+            <button class="site-btn icon" id="download_resume">Download Resume <i class="fa fa-download" aria-hidden="true"></i></button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Resume download_resume
+        $('#download_resume').on('click', function(){
+            var resumeLink = '<a href="pdf/Abhishek_Mugal_Resume.pdf" id="pdf_resume" target="_blank" rel="noreferrer"></a>';
+
+            if($('#pdf_resume').length == 0)
+                $(this).after(resumeLink);
+
+            $('#pdf_resume')[0].click();
+        });
+    });
+</script>

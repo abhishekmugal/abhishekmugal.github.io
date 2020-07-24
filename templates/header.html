@@ -1,0 +1,49 @@
+<header class="col-md-12" role="navigation">
+    <nav role="menu">
+        <div class="row" role="menubar">
+            <!-- navigation bar -->
+            <div class="col-md-8 col-sm-8 col-xs-4">
+                <ul class="tabs">
+                    <li class="tab" role="menuitem">
+                        <a class="home-btn" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="tab" role="menuitem"><a href="/resume.html">RESUME</a></li>
+                    <li class="tab" role="menuitem"><a href="/portfolio.html">PORTFOLIO</a></li>
+                    <li class="tab" role="menuitem"><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                <a href="mailto:abhishek.mugal@gmail.com" class="pull-right site-btn icon hidden-xs">Hire Abhishek <i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div class="hidden-md social-icons pull-right" aria-label="sns-information">
+                    <a class="tw" href="https://www.linkedin.com/in/abhishek-mugal/" target="_blank" title="LinkedIn" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="ins" href="https://github.com/abhishekmugal" target="_blank" title="GitHub" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a class="fb" href="https://www.facebook.com/abhishek.mugal" target="_blank" title="Facebook" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<script type="text/javascript">
+    $(document).ready(function(){
+        // RESPONSIVE MENU
+        function transform(){
+            var outdiv = '<div class="menuout"><div class="menuin"><ul class="tabs"></ul></div></div>';
+            $(outdiv).appendTo("nav");
+            var resmenus = $('.tabs').html();
+            $(".menuout .menuin .tabs").append(resmenus);
+            $('.menuin').hide();
+        }
+        transform();
+        $('.hamburger').on('click', function() {
+            $('.menuin').slideToggle(300);
+            $('#content').toggleClass('content-overlay');
+        });
+        $('.menuout').on('click', function () {
+            $('.menuin').slideUp();
+            $('#content').toggleClass('content-overlay');
+        });
+
+        $('header nav .tabs li a[href="' + window.location.pathname + '"]').attr("href", "javascript:void(0)");
+    });
+</script>

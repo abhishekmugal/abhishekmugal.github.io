@@ -15,7 +15,7 @@
     <meta property="og:site_name" content="Abhishek Mugal"/>
     <meta property="article:published_time" content="2019-08-16MST20:45:4632400" />
 	<meta property="article:modified_time" content="2020-01-10MST10:00:4632400" />
-	<meta property="og:updated_time" content="2020-06-13MST10:53:4632400" />
+	<meta property="og:updated_time" content="2020-07-22MST10:53:4632400" />
 
     <!-- Favicon
     ================================================== -->
@@ -26,15 +26,8 @@
     ================================================== -->
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/cubeportfolio.min.css"/>
-    <!--<link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.carousel.css"/>-->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/yellow.css" id="color"/>
-
-    <!-- Google Web fonts
-    ================================================== -->
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">-->
 
     <!-- Font Icons
     ================================================== -->
@@ -70,13 +63,13 @@
         "name" : "Abhishek Mugal"
       },
       "datePublished" : "2019-08-16",
-      "dateModified" : "2020-06-13",
+      "dateModified" : "2020-07-22",
       "image" : "https://abhishekmugal.github.io/img/abhi.jpg",
     }
     </script>
 </head>
 
-<body>
+<body id="index_page">
     <!-- Preloading -->
     <div id="preloader">
         <div class="spinner">
@@ -87,29 +80,18 @@
     <div class="wrapper top_30 container">
         <div class="row">
 
-            <!-- Profile Section
-            ================================================== -->
-            <div class="col-lg-3 col-md-4">
-                <div class="profile" aria-label="profile">
-                    <div class="">
-                        <div class="profile-name">
-                            <h1 class="name" role="heading" aria-label="name">Abhishek Mugal</h1>
-                            <span class="job" aria-label="job">Computer &amp; Full Stack Web Engineer</span>
-                        </div>
-                        <figure class="profile-image">
-                            <img src="images/abhi.jpg" alt="Abhishek Mugal's Profile Picture" role="img">
-                        </figure>
-                        <ul class="profile-information" role="list" aria-label="profile-information">
-                            <li></li>
-                            <li><p><span>SDE Intern @ <a href="https://amazon.com/" target="_blank" rel="noreferrer">Amazon</a></span></p></li>
-                            <li><p><span>Graduate student @ <a href="https://engineering.asu.edu/" target="_blank" rel="noreferrer">ASU</a> | <br>Former Lead Full Stack Web Engineer @ IBJ, Japan</span></p></li>
-                            <li><p><span>Email:</span> <a href="mailto:abhishek.mugal@gmail.com">abhishek.mugal@gmail.com</a></p></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <button class="site-btn icon" id="download_resume">Download Resume <i class="fa fa-download" aria-hidden="true"></i></button>
-                    </div>
+            <div id="profile_section"></div>
+            <div class="hidden">
+                <div class="profile-name">
+                    <h1 class="name" role="heading" aria-label="name">Abhishek Mugal</h1>
+                    <span class="job" aria-label="job">Computer &amp; Full Stack Web Engineer</span>
                 </div>
+                <ul class="profile-information" role="list" aria-label="profile-information">
+                    <li></li>
+                    <li><p><span>SDE Intern @ <a href="https://amazon.com/" target="_blank" rel="noreferrer">Amazon</a></span></p></li>
+                    <li><p><span>Graduate student @ <a href="https://engineering.asu.edu/" target="_blank" rel="noreferrer">ASU</a> | <br>Former Lead Full Stack Web Engineer @ IBJ, Japan</span></p></li>
+                    <li><p><span>Email:</span> <a href="mailto:abhishek.mugal@gmail.com">abhishek.mugal@gmail.com</a></p></li>
+                </ul>
             </div>
 
             <!-- Page Tab Container Div -->
@@ -118,38 +100,12 @@
                 <!-- Header
                 ================================================== -->
                 <div class="row">
-                    <header class="col-md-12" role="navigation">
-                        <nav role="menu">
-                            <div class="row" role="menubar">
-                                <!-- navigation bar -->
-                                <div class="col-md-8 col-sm-8 col-xs-4">
-                                    <ul class="tabs">
-                                        <li class="tab" role="menuitem">
-                                            <a class="home-btn" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
-                                        </li>
-                                        <li class="tab" role="menuitem"><a href="#resume">RESUME</a></li>
-                                        <li class="tab" role="menuitem"><a href="#portfolio">PORTFOLIO</a></li>
-                                        <li class="tab" role="menuitem"><a href="#contact">CONTACT</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
-                                    <a href="mailto:abhishek.mugal@gmail.com" class="pull-right site-btn icon hidden-xs">Hire Abhishek <i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-                                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
-                                    <div class="hidden-md social-icons pull-right" aria-label="sns-information">
-                                        <a class="tw" href="https://www.linkedin.com/in/abhishek-mugal/" target="_blank" title="LinkedIn" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                        <a class="ins" href="https://github.com/abhishekmugal" target="_blank" title="GitHub" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                        <a class="fb" href="https://www.facebook.com/abhishek.mugal" target="_blank" title="Facebook" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </header>
+                    <div id="header_section"></div>
 
                     <!-- Page Content
                     ================================================== -->
                     <article class="col-md-12" role="article">
                         <div id="content" class="panel-container">
-
                             <!-- Home Page
                             ================================================== -->
                             <div id="home" role="main">
@@ -346,323 +302,11 @@
                                     </section>
                                 </div>
                             </div>
-
-                            <!-- Resume Page
-                            ================================================== -->
-                            <div id="resume" role="contentinfo">
-                                <!-- Resume Section -->
-                                <div class="row">
-                                    <section class="education">
-                                        <div class="section-title top_30"><span></span><h2>Resume</h2></div>
-                                        <div class="row">
-                                            <!-- Working History -->
-                                            <div class="working-history col-md-6 padding_15 padbot_30">
-                                                <ul class="timeline col-md-12 top_30">
-                                                    <li><i class="fa fa-suitcase" aria-hidden="true"></i><h2 class="timeline-title">Working History</h2></li>
-                                                    <!-- a work -->
-                                                    <li>
-                                                        <div class="timeline-cover">
-                                                            <h3 class="line-title">
-                                                                <span aria-label="position">Software Development Engineer Intern</span><br>
-                                                                <span class="company" aria-label="company-name">
-                                                                    <a href="https://www.amazon.com/" target="_blank" rel="noopener" title="Amazon"><img src="images/amazon_logo.png" alt="Amazon" width="30%"></a>
-                                                                </span>
-                                                            </h3>
-                                                            <span class="time">May 2020 - Aug 2020</span>
-                                                            <p class="little-text">Designed and established an email API service as a new feature to coordinate activities in the Compliance Platform<br> Helped to reduce the friction while investigating seller’s identity at Amazon’s Consumer platform using Service Oriented Architecture<br><br> Technologies: Spring, Java, JSP, HTML5, CSS3, Bootstrap, API, Continuous Deployment Pipelines.</p>
-                                                        </div>
-                                                    </li>
-                                                    <!-- a work -->
-                                                    <li>
-                                                        <div class="timeline-cover">
-                                                            <h3 class="line-title">
-                                                                <span aria-label="position">Lead Full Stack Web Engineer</span><br>
-                                                                <span class="company" aria-label="company-name">
-                                                                    <a href="https://www.ibj.co.jp" target="_blank" rel="noopener" title="Internet Business Japan Co. Ltd., Japan"><img src="images/ibj_logo.png" alt="Internet Business Japan Co. Ltd." width="60%"></a>
-                                                                </span>
-                                                            </h3>
-                                                            <span class="time">Sep 2016 - May 2019</span>
-                                                            <p class="little-text">Design and develop high-end, fast, secure, reliable, and maintanable Web Applications; Led a team of three to design system and database architecture, optimize system flow, govern front-end and back-end for Web Applications.</p>
-                                                        </div>
-                                                    </li>
-                                                   <!-- a work -->
-                                                    <li>
-                                                        <div class="timeline-cover">
-                                                            <h3 class="line-title">
-                                                                <span aria-label="position">Web Developer Intern</span><br>
-                                                                <span class="company" aria-label="company-name">
-                                                                    <a href="https://www.amdocs.com" target="_blank" rel="noopener" title="Amdocs India"><img src="images/amdocs_logo.png" alt="Amdocs India" width="38%"></a>
-                                                                </span>
-                                                            </h3>
-                                                            <span class="time">Jun 2015 - Jul 2015</span>
-                                                            <p class="little-text">Developed an intra-domain Web Application using WordPress to manage various internal events at Amdocs. Received special appreciation from Product Manager for completing the project within 6 weeks.</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <!-- Education History -->
-                                            <div class="education-history col-md-6 padding_15 padbot_30">
-                                                <ul class="timeline col-md-12 top_30">
-                                                    <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><h2 class="timeline-title">Education History</h2></li>
-                                                    <!-- a work -->
-                                                    <li>
-                                                        <div class="timeline-cover">
-                                                            <h3 class="line-title">
-                                                                <span aria-label="education-major">Master of Computer Science (MCS)</span>
-                                                                <span class="uni" aria-label="university-name">
-                                                                    <a href="https://engineering.asu.edu/" target="_blank" rel="noopener" title="Arizona State University (ASU), USA"><img src="images/asu_logo.png" alt="Arizona State University (ASU), USA" width="45%"></a>
-                                                                </span>
-                                                            </h3>
-                                                            <span class="time">Aug 2019 - May 2021</span>
-                                                            <p class="little-text"><strong>CGPA: 3.9 / 4</strong><br>Pursuing Masters in Computer Science with concentration in Databases and Web Systems. <br><br>Courses: Multimedia and Web Databases, Data Visualization, Software Requirements and Specifications, Data Processing at Scale, Data Mining.</p>
-                                                        </div>
-                                                    </li>
-                                                    <!-- a work -->
-                                                    <li>
-                                                        <div class="timeline-cover">
-                                                            <h3 class="line-title">
-                                                                <span aria-label="education-major">B.Tech Computer Engineer</span>
-                                                                <span class="uni" aria-label="university-name">
-                                                                    <a href="http://www.coep.org.in/" target="_blank" rel="noopener" title="College of Engineering, Pune (COEP), India"><img src="images/coep_logo.png" alt="College of Engineering, Pune (COEP), India" width="75%"></a>
-                                                                </span>
-                                                            </h3>
-                                                            <span class="time">Jun 2012 - May 2016</span>
-                                                            <p class="little-text"><strong>CGPA: 8.1 / 10</strong><br>Among the top 10% of students in the batch. <br><br>Courses: Computer Networks, Database Management Systems, Data structures, OS, Algorithms, Web Technology.</p>
-                                                        </div>
-                                                    </li>
-                                                   <!-- a work -->
-                                                    <!--<li>
-                                                        <h3 class="line-title">
-                                                            <span aria-label="secondary-education">Higher Secondary School</span><br>
-                                                            <span class="uni" aria-label="university-name">UDJ College, Achalpur</span>
-                                                        </h3>
-                                                        <span class="time">Jun 2010 - Apr 2012</span>
-                                                        <p class="little-text">Scored 92.83% in secondary high school and was ranked 13th in Amravati Division.</p>
-                                                    </li>-->
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                                <!-- Achievements -->
-                                <div class="row">
-                                    <section class="achievements graybg">
-                                        <div class="section-title top_15"><span></span><h2>Achievements</h2></div>
-                                        <ul class="ach-list">
-                                            <li>Published a Research Paper titled <strong><a href="https://ieeexplore.ieee.org/document/7914939/" title="Road traffic prediction and congestion control using artificial neural networks" target="_blank" rel="noopener">'Road traffic prediction and congestion control using artificial neural networks' <i class="fa fa-external-link"></i></a></strong> in IEEE's 2016 International Conference on Computing, Analytics and Security Trends (CAST)</li>
-                                            <li>Intelligent Road Traffic project got selected in top 30/10000 teams in KPIT's National Level <strong><a href="https://sparkle.kpit.com/project/sparkle16" target="_blank" title="KPIT Sparkle 2016" rel="noopener">Sparkle Competition 2016 <i class="fa fa-external-link"></i></a></strong></li>
-                                            <li>Second runner-up in Avaya's Smart Project Competition 2016</li>
-                                            <li>Bookkeeper's Certification issued by National Bookkeepers Association</li>
-                                            <li>Named in Guinness Book of World Record for Rubik's Cube Attempt in College</li>
-                                        </ul>
-                                    </section>
-                                </div>
-                                <!-- Extra-currilular Section -->
-                                <div class="row">
-                                    <section class="clients col-md-12 padding_45">
-                                        <div class="section-title bottom_30"><span></span><h2>Extra-Curricular</h2></div>
-                                        <div class="row">
-                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                <div class="client">
-                                                    <p><span class="heading">Placement<br>Co-Ordinator</span><br><span class="datetime">2015-16</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                <div class="client">
-                                                    <p><span class="heading">Web Team Head</span><br>College Sports Event: Zest<br><span class="datetime">2014-15</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                <div class="client">
-                                                    <p><span class="heading">Event Organizer</span><br>College Boat Clubs Event: Regatta<br><span class="datetime">2013-14</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                                <!-- Testimonials -->
-                                <!--<div class="row">
-                                    <section class="testimonials bottom_30">
-                                        <div class="section-title top_60 bottom_30"><span></span><h2>Testimonials</h2></div>
-                                        <div class="owl-carousel row" data-items="3" data-autoplay="3000" data-pagination="true">
-                                            
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-1.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">Jack Garratt</span>
-                                                            <span class="job">Freelancer</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Great designer! he finished our work wonderfully and just in time. thanks for everything.</p>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-md-12 item">
-                                                <div class="comment">
-                                                    <div class="top-section">
-                                                        <figure>
-                                                            <img src="images/testimonial-2.jpg" alt="">
-                                                        </figure>
-                                                        <div class="name-info">
-                                                            <span class="name">April M. Griffin</span>
-                                                            <span class="job">Founder</span>
-                                                        </div>
-                                                    </div>
-                                                    <hr>
-                                                    <p>Our logo and business card design look great. Thanks Henry</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>-->
-                            </div>
-                            <!-- Portfolio Page
-                            ================================================== -->
-                            <div id="portfolio" class="row bottom_45" role="contentinfo">
-                                <section class="col-md-12">
-                                    <div class="col-md-12 content-header bottom_15">
-                                        <div class="section-title top_30 bottom_30"><span></span><h2>Portfolio</h2></div>
-                                        <div id="filters-container">
-                                            <!-- '*' means shows all item elements -->
-                                            <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">All</div>
-                                            <div data-filter=".cms" class="cbp-filter-item">CMS</div>
-                                            <div data-filter=".wp" class="cbp-filter-item">WordPress</div>
-                                            <div data-filter=".cloud" class="cbp-filter-item">Cloud</div>
-                                            <div data-filter=".neural" class="cbp-filter-item">Neural Networks</div>
-                                            <div data-filter=".others" class="cbp-filter-item">Other</div>
-                                        </div>
-                                    </div>
-                                    <div id="grid-container" class="top_60">
-                                        <!-- a work -->
-                                        <div class="cbp-item cloud">
-                                            <h4>Geo-spatial Hotspot Analysis</h4>
-                                            <p class="datetime">Oct 2019 – Dec 2019</p>
-                                            <p class="category">Cloud</p>
-                                            <p>Performed hotspot analysis on taxi trips big data of New York city using Apache Spark tool. Optimized the solution using Getis-ordinate mathematical computation formula to calculate the adjacent cells to a given cell. AWS EC2 Hadoop/Spark clusters were used to improve the performance of the computation.</p>
-                                        </div>
-                                        <!-- a work -->
-                                        <div class="cbp-item others">
-                                            <h4>Image Processing</h4>
-                                            <p class="datetime">Sep 2019 – Dec 2019</p>
-                                            <p class="category">Other</p>
-                                            <p>Extracted features like colors, gradients, textures from the given image dataset to index, cluster, classify, and find similarity between the images using techniques like Personalized Pagerank, Decision Tree, Scalable Vector Machine, etc.</p>
-                                        </div>
-                                        <!-- a work -->
-                                        <div class="cbp-item cms">
-                                            <h4>iCMS (Content Management System)</h4>
-                                            <p class="datetime">Sep 2016 – May 2019</p>
-                                            <p class="category">CMS</p>
-                                            <p>In-house CMS developed using CakePHP framework to manage and maintain small
-                                            to large websites, involves continuous improvement by creating new features and
-                                            enhancing existing system.</p>
-                                        </div>
-                                        <!-- a video work -->
-                                        <div class="cbp-item cbp-lightbox cms wp">
-                                            <h4>WordPress Systems (4 ~ 5)</h4>
-                                            <p class="datetime">Dec 2016 – Nov 2018</p>
-                                            <p class="category">CMS</p>
-                                            <p class="category">WordPress</p>
-                                            <p>Developed various secure, reliable, and efficient WordPress systems for clients from IT, Construction, Automobile, and Personal industries.</p>
-                                        </div>
-                                        <!-- a video work -->
-                                        <div class="cbp-item cbp-lightbox cms cloud">
-                                            <h4>AWS Cloud based system to deploy CMS Servers</h4>
-                                            <p class="datetime">Jan 2018 – Mar 2018</p>
-                                            <p class="category">CMS</p>
-                                            <p class="category">Cloud</p>
-                                            <p>Developed a compact but robust Cloud system for in-house CMS to deliver it quickly to the clients using AWS like Elastic Compute Cloud (EC2), Elastic Load Balancer (ELB), Route53, and CloudFront. Reduced CMS deployment time by 80% and increased the number of sales by 40%</p>
-                                        </div>
-                                        <!-- a image work -->
-                                        <div class="cbp-item cbp-lightbox neural">
-                                            <h4>Road Traffic Prediction using Neural Networks</h4>
-                                            <p class="datetime">Sep 2015 – Jan 2016</p>
-                                            <p class="category">Neural Net.</p>
-                                            <p>Road Traffic Prediction model which is designed and realized in code to be more accurate than the current prediction systems. Published in IEEE's 2016 International Conference on Computing, Analytics, and Security Trends (CAST) <a href="https://ieeexplore.ieee.org/document/7914939/" target="_blank" rel="noopener">Link <i class="fa fa-external-link"></i></a></p>
-                                        </div>
-                                        <!-- a work -->
-                                        <div class="cbp-item neural">
-                                            <h4>Intelligent Road Traffic System</h4>
-                                            <p class="datetime">Dec 2015 - Feb 2016</p>
-                                            <p class="category">Neural Net.</p>
-                                            <p>Integrated the road traffic prediction model in Fuzzy logic and OpenCV to predict and manage the traffic signals timing based on the traffic flow.</p>
-                                        </div>
-                                        <!-- a video work -->
-                                        <div class="cbp-item cms wp">
-                                            <h4>Web Application for Content Management</h4>
-                                            <p class="datetime">Jun 2015 – Jul 2015</p>
-                                            <p class="category">CMS</p>
-                                            <p class="category">WordPress</p>
-                                            <p>Research and Web Application development for Amdocs to manage internal events efficiently using WordPress, PHP, JavaScript, jQuery, HTML5, and CSS3</p>
-                                        </div>
-                                        <!-- a work -->
-                                        <div class="cbp-item others">
-                                            <h4>Online Registration System</h4>
-                                            <p class="datetime">Dec 2014 – Jan 2015</p>
-                                            <p class="category">Other</p>
-                                            <p>Developed a Web Application to maintain a database of students who participate in Regatta (College Boat Club's Annual Fest) for the Management Committee to provide ease of operation like registration, managing student's information, and basic database CRUD operations.</p>
-                                        </div>
-                                        <!-- a work -->
-                                        <div class="cbp-item others">
-                                            <h4>Club Recommendation System</h4>
-                                            <p class="datetime">Nov 2013 - Feb 2014</p>
-                                            <p class="category">Other</p>
-                                            <p>Developed a Recommendation System for fresh students in college to choose appropriate clubs depending on their interests, major, and similarities with the present students using Data Mining techniques.</p>
-                                        </div>
-                                    </div>
-                                    <!-- load more button -->
-                                    <!-- <div id="js-loadMore-agency" class="cbp-l-loadMore-button top_30">
-                                        <a href="load-more/portfolio.html" class="cbp-l-loadMore-link site-btn" rel="nofollow">
-                                            <span class="cbp-l-loadMore-defaultText">Load More (<span class="cbp-l-loadMore-loadItems">3</span>)</span>
-                                            <span class="cbp-l-loadMore-loadingText">Loading...</span>
-                                            <span class="cbp-l-loadMore-noMoreLoading">No More Works</span>
-                                        </a>
-                                    </div> -->
-                                </section>
-                            </div>
-
-                            <!-- Contact Page
-                            ================================================== -->
-                            <div id="contact" role="contentinfo">
-                                <div class="row">
-                                    <!-- Contact Information -->
-                                    <section class="contact-info col-md-6 padding_30">
-                                        <div class="section-title top_15 bottom_30"><span></span><h2>Contact Information</h2></div>
-                                        <ul>
-                                            <li><span>E-mail:</span> <a href="mailto:abhishek.mugal@gmail.com">abhishek.mugal@gmail.com</a></li>
-                                            <li><span>Skype:</span> abhishekmugal</li>
-                                            <li>
-                                                <div class="social-icons top_15">
-                                                    <a class="tw" href="https://www.linkedin.com/in/abhishek-mugal/" target="_blank" title="LinkedIn" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                                    <a class="ins" href="https://github.com/abhishekmugal" target="_blank" title="GitHub" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                                    <a class="fb" href="https://www.facebook.com/abhishek.mugal" target="_blank" title="Facebook" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                    <!-- Contact Map -->
-                                    <section class="contact-map col-md-12 top_15 bottom_15">
-                                        <!-- <div class="section-title bottom_30"><span></span><h2>Contact Map.</h2></div> -->
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.961642812804!2d-111.93024138531813!3d33.42424435801005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08db3b33540f%3A0x666e717f473c3033!2sArizona+State+University%2C+Tempe+Campus!5e0!3m2!1sen!2sus!4v1566077567258!5m2!1sen!2sus" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </section>
-                                </div>
-                            </div>
-
                         </div><!-- Content - End -->
                     </article> <!-- col-md-12 end -->
                 </div><!-- row end -->
-                <!-- Footer
-                ================================================== -->
-                <footer>
-                    <div class="footer col-md-12 top_30 bottom_30">
-                        <div class="name col-md-4 hidden-md hidden-sm hidden-xs">Abhishek Mugal</div>
-                        <div class="copyright col-lg-8 col-md-12">© <span id="currentYear">2020</span> All rights reserved.</div>
-                    </div>
-                </footer>
+                
+                <div id="footer_section"></div>
 
             </div> <!-- Tab Container - End -->
         </div> <!-- Row - End -->
@@ -670,15 +314,9 @@
 
     <!-- Javascripts
     ================================================== -->
-    <script>
-        var d = new Date();
-        document.getElementById("currentYear").innerHTML = d.getFullYear();
-    </script>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
-    <!--<script type="text/javascript" src="js/owl.carousel.min.js"></script>-->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
