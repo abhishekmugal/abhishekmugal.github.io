@@ -30,7 +30,6 @@
 
 /*------------------------ 1 Body and Core Css ------------------------*/
 
-
 .portfolio img.item{
     width: 100%;
 }
@@ -40,6 +39,11 @@ body{
     background:#fafafa;
     overflow-x: hidden;
     position: relative;
+}
+
+body.theme-dark {
+    --background-color: var(--dark-background-color);
+    --text-color: var(dark-text-color);
 }
 
 .geometric-shapes{
@@ -164,7 +168,7 @@ p{
 .little-text{
     color: #989898;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 20px;
 }
 
 blockquote {
@@ -361,7 +365,7 @@ h6{
 
 .profile-name{
     line-height: 18px;
-    padding: 20px;
+    padding: 25px 20px;
 }
 
 .profile .name{
@@ -400,9 +404,8 @@ ul.profile-information li{
 }
 
 ul.profile-information li p{
-    font-size: 12px;
-    color: #7F7F7F;
-    line-height: 12px;
+    font-size: 14px;
+    color: #000;
 }
 
 ul.profile-information li:last-child{
@@ -790,7 +793,7 @@ ul.timeline{
 }
 
 .timeline li span.time {
-    font-size: 12px;
+    font-size: 14px;
     padding: 9px 0;
     display: block;
 }
@@ -1227,8 +1230,9 @@ footer .footer .copyright{
         margin-top: 14px;
     }
 
-    a {
-        font-size: 120%;
+    p {
+        font-size: 16px !important;
+        line-height: 1.8 !important;
     }
     #profile_section {
         display: none;
@@ -1253,6 +1257,7 @@ footer .footer .copyright{
     }
     ul.profile-information {
         margin-top: 10px;
+        padding: 0 20px;
     }
     ul.profile-information li {
         padding: 0 10px 10px;
@@ -1260,6 +1265,10 @@ footer .footer .copyright{
     }
     ul.profile-information li:before, ul.profile-information li:after {
         display: none;
+    }
+    ul.profile-information li span {
+        font-size: 16px !important;
+        line-height: 1.8 !important;
     }
     .profile .site-btn {
         margin: 0 auto 0;
@@ -1289,5 +1298,34 @@ footer .footer .copyright{
     }
     ul.timeline {
         padding-right: 0;
+    }
+    #portfolio #filters-container span, #portfolio #filters-container .cbp-filter-item {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #portfolio .cbp-item h4 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .contact-info ul li {
+        font-size: 16px;
+    }
+    footer .footer .copyright {
+        font-size: 14px;
+    }
+    .sp-img-width-50 {
+        width: 50%;
+    }
+    .sp-img-width-58 {
+        width: 58%;
+    }
+    .sp-img-width-65 {
+        width: 65%;
+    }
+    .sp-img-width-80 {
+        width: 80%;
+    }
+    .sp-img-width-90 {
+        width: 90%;
     }
 }
